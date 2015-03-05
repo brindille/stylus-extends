@@ -1,0 +1,23 @@
+{
+  "name": "brindille-stylus-extends",
+  "version": "0.0.1",
+  "description": "Useful extends for stylus",
+  "main": "index.styl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brindille/stylus-extends.git"
+  },
+  "keywords": [
+    "stylus",
+    "extends"
+  ],
+  "author": "Valentin Daguenet <valentin.daguenet@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brindille/stylus-extends/issues"
+  },
+  "homepage": "https://github.com/brindille/stylus-extends"
+}

@@ -1,0 +1,56 @@
+/*======================================================================
+    CLEARFIX
+
+    use with extend (ex: @extend .clearfix)
+    or directly in html as classes
+======================================================================*/
+.clearfix
+    zoom 1
+    &:before
+    &:after
+        content ""
+        display table
+    &:after
+        clear both
+
+/*======================================================================
+    FULL-SIZE
+
+    use with extend (ex: @extend .full-size)
+    or directly in html as classes
+======================================================================*/
+.full-size
+    width: 100%
+    height: 100%
+
+.full-size-absolute
+    @extend .full-size
+    position: absolute
+    top: 0
+    left: 0
+
+.full-size-relative
+    @extend .full-size
+    position: relative
+    top: 0
+    left: 0
+
+/*======================================================================
+    SMOOTH-FONT
+
+    use with extend (ex: @extend .smooth-font)
+    or directly in html as classes
+======================================================================*/
+.smooth-font
+    text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+/*======================================================================
+    UNGLITCH-3D
+
+    use with extend (ex: @extend .unglitch-3d)
+    or directly in html as classes
+======================================================================*/
+.unglitch-3d
+    backface-visibility: hidden
