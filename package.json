@@ -3,18 +3,28 @@
   "version": "0.0.1",
   "description": "Useful extends for stylus",
   "main": "index.styl",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/brindille/stylus-extends.git"
   },
   "keywords": [
     "stylus",
-    "extends"
+    "extends",
+    "brindille"
   ],
-  "author": "Valentin Daguenet <valentin.daguenet@gmail.com>",
+  "author": {
+    "name": "Guillaume Gouessan",
+    "email": "guillaume.gouessan@gmail.com",
+    "url": "https://guillaumegouessan.com/"
+  },
+  "contributors": [
+    {
+      "name": "Valentin Daguenet",
+      "email": "valentin.daguenet@gmail.com",
+      "url": "http://vdaguenet.fr/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/brindille/stylus-extends/issues"
