@@ -1,6 +1,6 @@
 {
   "name": "brindille-stylus-extends",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Useful extends for stylus",
   "main": "index.styl",
   "scripts": {},
